@@ -5,7 +5,7 @@ var WALL_HEIGHT = 150;
 
 // generate a maze using binary tree
 var grid = new Grid(10, 10);
-binary_tree(grid);
+sidewinder(grid);
 console.log(grid.toString());
 
 // setup
